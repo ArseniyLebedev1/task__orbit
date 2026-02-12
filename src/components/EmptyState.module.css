@@ -1,0 +1,26 @@
+.empty {
+  margin-top: 28px;
+  padding: 28px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px dashed var(--border);
+  text-align: center;
+}
+
+.icon {
+  width: 56px;
+  height: 56px;
+  margin: 0 auto 12px;
+  border-radius: 18px;
+  background: linear-gradient(135deg, #f8cfb2, #f3a99b);
+}
+
+.empty h3 {
+  margin: 0 0 8px;
+  font-family: 'Fraunces', serif;
+}
+
+.empty p {
+  margin: 0;
+  color: var(--muted);
+}

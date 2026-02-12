@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:wght@600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+:root {
+  --bg: #f7f2ea;
+  --surface: #ffffffcc;
+  --surface-solid: #ffffff;
+  --text: #2c1e1b;
+  --muted: #6f5a52;
+  --accent: #e07a5f;
+  --accent-dark: #be5d45;
+  --accent-soft: #f5c7b7;
+  --border: #eadcd3;
+  --shadow: 0 24px 60px -40px rgba(50, 24, 18, 0.45);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Space Grotesk', system-ui, -apple-system, sans-serif;
+  color: var(--text);
+  background-image:
+    radial-gradient(circle at 15% 20%, #ffe7d6 0%, transparent 40%),
+    radial-gradient(circle at 85% 15%, #f3d9ff 0%, transparent 38%),
+    radial-gradient(circle at 20% 80%, #cde9ff 0%, transparent 45%),
+    linear-gradient(130deg, #f7f2ea 0%, #f8efe3 50%, #f4f1ec 100%);
+  min-height: 100vh;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
