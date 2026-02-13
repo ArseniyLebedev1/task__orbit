@@ -9,7 +9,7 @@
 - Zustand
 - CSS Modules
 - Framer Motion
-- JSON Server (mock API)
+- Mokky.dev (mock API)
 
 ## Запуск проекта
 
@@ -19,19 +19,13 @@
 npm install
 ```
 
-2. Запустите JSON Server:
-
-```
-npm run server
-```
-
-3. В другом терминале запустите Vite:
+2. Запустите Vite:
 
 ```
 npm run dev
 ```
 
-При необходимости можно изменить адрес API в `.env` (пример — `.env.example`).
+Адрес API берётся из `.env` (пример — `.env.example`).
 
 ## Особенности
 
