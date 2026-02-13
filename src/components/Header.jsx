@@ -10,7 +10,7 @@ function Header() {
       <div className={styles.brand}>
         <div className={styles.logo} aria-hidden="true" />
         <div>
-          <div className={styles.title}>Flowlist</div>
+          <div className={styles.title}>TaskOrbit</div>
           <div className={styles.subtitle}>Фокус на важных делах</div>
         </div>
       </div>

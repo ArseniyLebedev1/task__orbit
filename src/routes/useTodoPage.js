@@ -35,11 +35,11 @@ export const useTodoPage = () => {
   } = useTodoStore();
 
   const [savedFilter, setSavedFilter] = useLocalStorage(
-    'flowlist-filter',
+    'taskorbit-filter',
     'all'
   );
   const [savedSortOrder, setSavedSortOrder] = useLocalStorage(
-    'flowlist-sort',
+    'taskorbit-sort',
     'newest'
   );
 
